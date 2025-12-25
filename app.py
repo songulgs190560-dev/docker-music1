@@ -103,7 +103,7 @@ def favorites_page():
     favs = load_favorites()
     return render_template_string(HTML_TEMPLATE, tracks=favs, fav_count=len(favs), show_search=False)
 
-@app.route("/add_favorite", method=["POST"])
+@app.route("/add_favorite", methods=["POST"])
 def add_favorite():
     favs = load_favorites()
     track_id = request.form.get("trackId")
