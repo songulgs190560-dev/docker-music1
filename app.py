@@ -24,7 +24,7 @@ HTML_TEMPLATE = """
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Music Discovery & Favorites</title>
+    <title>Songül Yağcı</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root { --bg-color: #121212; --card-color: #181818; --accent-color: #1DB954; --text-color: #ffffff; }
